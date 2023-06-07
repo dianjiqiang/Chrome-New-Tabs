@@ -1,0 +1,21 @@
+{
+  "name": "keyie-new-tab-page",
+  "description" : "郑总滴新标签页",
+  "version": "2.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "./src/poup.html",
+    "default_icon": "./src/assets/image/icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "./src/poup.html"
+  },
+  "permissions": [
+      "tabs",
+      "storage"
+  ],
+  "icons": {
+    "1080": "./src/assets/image/icon.png"
+  },
+  "offline_enabled": false
+}

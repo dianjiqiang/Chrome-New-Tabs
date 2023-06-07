@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>keyie-tabs</title>
+  <link href="./css/search.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="./css/button.css" rel="stylesheet" type="text/css" /> -->
+  <link href="./css/dock.css" rel="stylesheet" type="text/css" />
+  <link href="./css/setting.css" rel="stylesheet" type="text/css" />
+  <style>
+  </style>
+</head>
+<body>
+  <div class="search-box">
+    <input class="search-txt" type="text">
+    <a class="search-btn">
+      <svg class="icon" viewBox="0 0 1024 1024" width="30px"><path d="M424.024 766.098c-91.619 0-177.754-35.679-242.538-100.464-133.735-133.737-133.735-351.344 0-485.078 64.784-64.784 150.919-100.462 242.538-100.462s177.754 35.677 242.539 100.462c133.733 133.735 133.735 351.34 0 485.078-64.785 64.783-150.922 100.464-242.539 100.464zM424.024 196.085c-60.637 0-117.643 23.613-160.523 66.489-88.512 88.51-88.51 232.53 0 321.040 42.876 42.876 99.885 66.491 160.523 66.491s117.643-23.614 160.523-66.491c88.51-88.51 88.51-232.53 0-321.040-42.876-42.876-99.885-66.489-160.523-66.489z" fill="#e94118" p-id="1176"></path><path d="M886.838 943.904c-14.842 0-29.684-5.663-41.010-16.986l-261.286-261.285c-22.647-22.649-22.647-59.369 0-82.018 22.647-22.647 59.37-22.647 82.018 0l261.286 261.286c22.647 22.649 22.647 59.369 0 82.018-11.325 11.322-26.167 16.985-41.010 16.985z" fill="#e94118" p-id="1177"></path></svg>
+    </a>
+  </div>
+  <div class="setting">
+    <img class="setting-img" src="./assets/setting.png" alt="">
+  </div>
+  <div class="bottom-dock">
+    <div class="dock">
+    </div>
+  </div>
+  <div class="setting-toup hidden-toup">
+    <div class="inner-toup">
+      小伙子警告你奥, 我这个网站蛮脆弱 不要不填值就提交奥 虽然设置页很丑 但是没关系 没事谁打开设置页啊!!
+      如果真玩坏了, f12 => 点击应用/Application => 本地存储空间/LocalStorage(第一个) => 删除右边的所有记录就行
+      <label>
+        <span>链接地址: </span>
+        <input class="toupurl" type="text">
+      </label>
+      <label>
+        <span>链接名字: </span>
+        <input class="toupname" type="text">
+      </label>
+      <button class="add-dock">添加至dock栏</button>
+      <br>
+      <br>
+      添加背景视频<input class="img-video" type="file">
+      <br>
+      <br>
+      添加背景图片<input class="img-picture" type="file">
+      <br>
+      <br>
+      <button class="google">换成google</button>
+      <br>
+      <br>
+      <button class="bing">换成bing</button>
+      <br>
+      <br>
+      <button class="baidu">换成百度</button>
+    </div>
+  </div>
+  <div class="tms">
+    <!-- 透明色, 让图片无法拖动 -->
+  </div>
+  <script src="./script/index.js"></script>
+  <script src="./script/demo.js"></script>
+</body>
+</html>

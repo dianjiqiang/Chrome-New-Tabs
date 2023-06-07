@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.bottom-dock{
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dock{
+  background-color: #676b72;
+  transition: all 0.2s;
+  height: 70px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  /*display: inline-block;
+  */display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.dock > div{
+  margin: 0 3px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.tooltip{
+  display: none;
+  transition: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  position: relative;
+  top: -70px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fafafa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.tooltip::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #fafafa;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.docklist:hover .tooltip{
+  display: block !important;
+}
+.dock > .list{
+  height: 70px;
+  width: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dock > .docklist{
+  position: relative;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.dock > .approach-list{
+  height: 80px;
+  width: 80px;
+  display: flex;
+  font-size: 23px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.dock > .far-list{
+  height: 75px;
+  width: 75px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.tool-tip{
+  display: block;
+  position: absolute;
+  top: -20px;
+}
