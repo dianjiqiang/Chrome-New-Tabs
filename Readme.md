@@ -19,3 +19,7 @@
 `题外话: `
 
 该项目就下班回家写了几个小时, 本人也是第一次写chrome插件. 所以无法在项目中动态导入 image 和 video 之前有尝试过一些方式, 一旦导入chrome插件就变得无法使用! 之后想采用indexDB 但是碍于时间原因 没有采用此方案, 有心者可以自行添加
+
+# 演示图片
+
+![演示图片](https://raw.githubusercontent.com/dianjiqiang/picGoEnt/main/git/20230715015816.png)
